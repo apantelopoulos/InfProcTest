@@ -1,0 +1,74 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid dodgerblue;
+    font-size: x-large;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 5px 10px dodgerblue;
+
+}
+
+.grid-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid dodgerblue;
+    font-size: x-large;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 5px 10px dodgerblue;
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+.cntr{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.buttongr {
+    border: none;
+    background-color: springgreen;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonbl {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.disabled{
+    border: none;
+    background-color: grey;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+
+}
